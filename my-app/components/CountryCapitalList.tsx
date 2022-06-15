@@ -51,8 +51,8 @@ const CountryCapitalItem = (props: CountryCapitalProps) => {
         {props.capital}
       </div>
     </>
-  )
-}
+  );
+};
 
 const CountryCapitalList = () => {
   return (
