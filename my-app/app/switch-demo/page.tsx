@@ -1,6 +1,7 @@
+'use client';
 import { useState, useEffect } from "react";
 
-const SwitchDemo = () => {
+export default function SwitchDemo() {
   const [pushed, setPushed] = useState(false);
   useEffect(() => {
     document.title = `現在の状態: ${pushed ? "ON" : "OFF"}`;
@@ -16,6 +17,4 @@ const SwitchDemo = () => {
       </button>
     </main>
   );
-};
-
-export default SwitchDemo;
+}
