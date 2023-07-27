@@ -8,10 +8,10 @@ interface CountryCapitalProps {
 }
 
 const countryCapitals: { country: string; capital: string }[] = [
-  {country: '日本', capital: '東京'},
-  {country: 'アメリカ', capital: 'ワシントンD.C.'},
-  {country: '中国', capital: '北京'},
-  {country: 'イギリス', capital: 'ロンドン'}
+  { country: '日本', capital: '東京' },
+  { country: 'アメリカ', capital: 'ワシントンD.C.' },
+  { country: '中国', capital: '北京' },
+  { country: 'イギリス', capital: 'ロンドン' }
 ];
 
 function Card(props: CardProps) {
