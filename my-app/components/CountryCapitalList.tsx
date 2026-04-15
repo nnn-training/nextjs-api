@@ -7,7 +7,7 @@ interface CountryCapitalProps {
   capital: string;
 }
 
-const countryCapitals: { country: string; capital: string }[] = [
+const countryCapitals: CountryCapitalProps[] = [
   { country: '日本', capital: '東京' },
   { country: 'アメリカ', capital: 'ワシントンD.C.' },
   { country: '中国', capital: '北京' },
@@ -28,7 +28,7 @@ function Card(props: CardProps) {
       {props.children}
     </div>
   );
-};
+}
 
 function CountryCapitalItem(props: CountryCapitalProps) {
   return (
@@ -52,7 +52,7 @@ function CountryCapitalItem(props: CountryCapitalProps) {
       </div>
     </>
   );
-};
+}
 
 export default function CountryCapitalList() {
   return (
